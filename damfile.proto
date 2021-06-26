@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+message BinaryMesh {
+  repeated ChunkSimple chunks = 1;
+}
+
+message ChunkSimple {
+  VerticesSimple vertices = 1;
+  FacesSimple faces = 2;
+  string chunk_name = 3;
+  string material_name = 4;
+}
+
+message VerticesSimple {
+  repeated float xyz = 1;
+  repeated float uv = 2;
+}
+
+message FacesSimple {
+  repeated uint32 faces = 1;
+}
+
