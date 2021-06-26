@@ -8,7 +8,7 @@ DAM files are just protobuf files. The file "damfile.proto" is a incomplete sche
 Setup:
 Compile protobuf file
 ```
-protoc --python\_out=. damfile.proto
+protoc --python_out=. damfile.proto
 ```
 
 ```
