@@ -106,9 +106,9 @@ if __name__ == "__main__":
     # mtl file
     with open(mtl_path, "wt") as mtl_file:
         write_mtl_file(root, mtl_file)
-    print(f"saved mtl:", shlex.quote(str(mtl_path)))
+    print("saved mtl:", shlex.quote(str(mtl_path)))
 
     # obj file
     with open(obj_path, "wt") as obj_file:
         write_obj_file(root, obj_file, mtl_filename)
-    print(f"saved obj:", shlex.quote(str(obj_path)))
+    print("saved obj:", shlex.quote(str(obj_path)))
