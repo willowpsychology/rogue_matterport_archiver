@@ -2,7 +2,7 @@
 ## Convert matterport .dam files to plaintext .obj
 
 
-DAM files are just protobuf files. The file "damfile.proto" is a incomplete schema but is valid for all DAM files I have seen.
+DAM files are just protobuf files. The file "damfile.proto" is an incomplete schema but is valid for all DAM files I have seen.
 
 
 Setup:
